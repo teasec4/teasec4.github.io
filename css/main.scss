@@ -89,19 +89,20 @@ text-align: center;
   border-radius: 20px;
 }
 
-@media (max-width: 50em) {
-  p{
-    font-size: 3rem;
-  }
-
-  header{
+@media (max-width: 650px) {
+  #header{
+    margin-bottom: 1rem;
     font-size: 2rem;
   }
 
-  button{
+  #p{
+    font-size: 3rem;
+  }
+
+  #button{
     font-size: 5rem;
   }
-  input{
+  #input{
     font-size: 5rem;
   }
 
