@@ -75,7 +75,7 @@ input {
   color: #29f129;
   border-radius: 20px; }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   p {
     font-size: 2rem; }
 
