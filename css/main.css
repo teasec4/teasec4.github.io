@@ -49,11 +49,10 @@ input {
   margin-bottom: .6em; }
 
 .forclock {
-  width: 50%;
   margin: auto;
   font-size: 5em;
   background-color: #3BAEB8;
-  border-radius: .3em;
+  border-radius: 1em;
   color: #9E4613; }
 
 .spayser {
@@ -75,9 +74,9 @@ input {
   color: #29f129;
   border-radius: 20px; }
 
-@media (max-width: 400px) {
+@media (max-width: 50em) {
   p {
-    font-size: 2rem; }
+    font-size: 3rem; }
 
   header {
     font-size: 2rem; }
