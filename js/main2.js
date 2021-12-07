@@ -8,16 +8,16 @@ buttonRun.addEventListener('click', function () {
 timer = setInterval(function () {
     if(secondsIn >=0 && secondsIn<11){
         timerIn.style.color = '#29f129'
-        text.innerText = "Вдох"
+        text.innerText = "inhale"
     }
     if (secondsIn >=11 && secondsIn<31){
         timerIn.style.color = 'red'
-        text.innerText = "Выдох"
+        text.innerText = "exhale"
     }
     if (secondsIn >=31){
         secondsIn=0
         timerIn.style.color = '#29f129'
-        text.innerText = "Вдох"
+        text.innerText = "inhale"
     }
 
     let strTimerIn = `${secondsIn}`;
