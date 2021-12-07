@@ -21,7 +21,8 @@ h1 {
 
 p {
   margin: 0;
-  font-size: 2em; }
+  font-size: 2em;
+  font-family: 'Fuzzy Bubbles', cursive; }
 
 .container1 {
   align-content: center;
@@ -73,5 +74,22 @@ input {
   background-color: #3BAEB8;
   color: #29f129;
   border-radius: 20px; }
+
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem; }
+
+  header {
+    font-size: 3rem; }
+
+  button {
+    font-size: 3rem; }
+
+  input {
+    font-size: 3rem; } }
+@media (min-width: 800px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5; } }
 
 /*# sourceMappingURL=main.css.map */

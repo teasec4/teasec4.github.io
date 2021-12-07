@@ -26,6 +26,7 @@ h1 {
 p{
   margin: 0;
   font-size: 2em;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .container1{
@@ -63,6 +64,8 @@ input {
   border-radius: 20px;
   color: #9E4613;
 }
+
+
 .spayser{
   margin: 2em 0 ;
 }
@@ -84,6 +87,31 @@ text-align: center;
   background-color: #3BAEB8;
   color: #29f129;
   border-radius: 20px;
+}
+
+@media (min-width: 600px) {
+  p{
+    font-size: 1.25rem;
+  }
+
+  header{
+    font-size: 3rem;
+  }
+
+  button{
+    font-size: 3rem;
+  }
+  input{
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 800px) {
+  p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 
 
