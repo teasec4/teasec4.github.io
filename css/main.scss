@@ -44,15 +44,15 @@ button{
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 3em;
   color: black;
-  border-radius: 15px;
+  border-radius: .2em;
 }
 input {
-  width: 100px;
+  width: 2em;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 3em;
-  border: 1px solid #cecece;
+  border: .2em solid #cecece;
   background: beige;
-  border-radius: 15px;
+  border-radius: .2em;
   margin-bottom: .6em;
 }
 
@@ -61,7 +61,7 @@ input {
   margin: auto;
   font-size: 5em;
   background-color: #3BAEB8;
-  border-radius: 20px;
+  border-radius: .3em;
   color: #9E4613;
 }
 
@@ -89,7 +89,7 @@ text-align: center;
   border-radius: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   p{
     font-size: 2rem;
   }
