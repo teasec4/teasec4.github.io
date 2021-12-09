@@ -1,10 +1,18 @@
-let timerInput = document.getElementById("time");
 let buttonRun = document.getElementById("button");
 let timerShow = document.getElementById("timer");
 
 
 buttonRun.addEventListener('click', function () {
-    timeMinut = parseInt(timerInput.value) * 60
+    if (document.getElementById("timeChoice1").checked === true){
+        timeMinut = 5 * 60
+    }
+    if (document.getElementById("timeChoice2").checked === true){
+        timeMinut = 10 * 60
+    }
+    if (document.getElementById("timeChoice3").checked === true){
+        timeMinut = 15 * 60
+    }
+
 })
 
 timer = setInterval(function (){
@@ -13,7 +21,6 @@ timer = setInterval(function (){
     hour = timeMinut/60/60%60
     if (timeMinut <=0){
         clearInterval(timer);
-        alert("Good job!");
     } else {
         let strTimer = `${Math.trunc(hour)}:${Math.trunc(minutes)}:${seconds}`;
         timerShow.innerHTML = strTimer;

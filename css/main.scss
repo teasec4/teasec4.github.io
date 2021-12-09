@@ -28,8 +28,9 @@ section{
 h1 {
   margin: 0;
   color: #EB854B;
-  font-size: 10em;
+  font-size: 6em;
   font-family: 'IBM Plex Serif', serif;
+  padding: .5em;
 }
 
 p{
@@ -43,10 +44,32 @@ p{
 
 }
 
+.container4{
+  display: block;
+  margin: auto;
+  font-size: 3em;
+  width: 80%;
+  background-color: #EB854B;
+  border-radius: 1em;
+}
+
+.form_radio{
+  margin: .5em .5em;
+  padding: 1em 1em;
+  background-color: #3BAEB8;
+  border-radius: 1em;
+}
+.form_radio2{
+  margin: .5em .5em;
+  padding: 1em 1em;
+  background-color: #2b7abd;
+}
+
 .container2{
   margin: auto;
-  width: 80%;
+  width: 100%;
   text-align: center;
+
 }
 
 .container3{
@@ -55,21 +78,14 @@ p{
 }
 
 button{
+  margin-top: .5em;
   background-color: #22656B;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 5em;
   color: black;
   border-radius: .2em;
 }
-input {
-  width: 2em;
-  font-family: 'Fuzzy Bubbles', cursive;
-  font-size: 5em;
-  border: .2em solid #cecece;
-  background: beige;
-  border-radius: .2em;
-  margin-bottom: .6em;
-}
+
 
 .forclock{
   margin: auto;
