@@ -10,8 +10,10 @@ body {
   background-color: #94E6EE; }
 
 header {
+  font-weight: bold;
   background-color: #4BDDEB;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 h1 {
   margin: 0;
@@ -25,12 +27,17 @@ p {
   font-family: 'Fuzzy Bubbles', cursive; }
 
 .container1 {
-  align-content: center;
-  text-align: center; }
+  margin: auto;
+  width: 80%; }
 
 .container2 {
-  align-content: center;
+  margin: auto;
+  width: 80%;
   text-align: center; }
+
+.container3 {
+  width: 80%;
+  margin: auto; }
 
 button {
   background-color: #22656B;
@@ -58,10 +65,6 @@ input {
 .spayser {
   margin: 2em 0; }
 
-.container3 {
-  width: 80%;
-  margin: auto; }
-
 .left {
   text-align: center; }
 
@@ -75,17 +78,17 @@ input {
   border-radius: 20px; }
 
 @media (max-width: 650px) {
-  #header {
+  header {
     margin-bottom: 1rem;
     font-size: 2rem; }
 
-  #p {
+  p {
     font-size: 3rem; }
 
-  #button {
+  button {
     font-size: 5rem; }
 
-  #input {
+  input {
     font-size: 5rem; } }
 
 /*# sourceMappingURL=main.css.map */
