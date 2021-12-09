@@ -23,11 +23,11 @@ section {
 h1 {
   margin: 0;
   color: #EB854B;
-  font-size: 5em;
+  font-size: 10em;
   font-family: 'IBM Plex Serif', serif; }
 
 p {
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Fuzzy Bubbles', cursive; }
 
 .container1 {
@@ -41,19 +41,19 @@ p {
 
 .container3 {
   width: 80%;
-  margin: auto; }
+  text-align: center; }
 
 button {
   background-color: #22656B;
   font-family: 'Fuzzy Bubbles', cursive;
-  font-size: 8em;
+  font-size: 5em;
   color: black;
   border-radius: .2em; }
 
 input {
   width: 2em;
   font-family: 'Fuzzy Bubbles', cursive;
-  font-size: 8em;
+  font-size: 5em;
   border: .2em solid #cecece;
   background: beige;
   border-radius: .2em;
@@ -61,13 +61,13 @@ input {
 
 .forclock {
   margin: auto;
-  font-size: 10em;
+  font-size: 7em;
   background-color: #3BAEB8;
   border-radius: 1em;
   color: #9E4613; }
 
 .spayser {
-  margin: 2em 0; }
+  margin: 1em 0; }
 
 .left {
   text-align: center; }
@@ -80,19 +80,5 @@ input {
   background-color: #3BAEB8;
   color: #29f129;
   border-radius: 20px; }
-
-@media (min-width: 650px) {
-  header {
-    margin-bottom: 1rem;
-    font-size: 2rem; }
-
-  p {
-    font-size: 3rem; }
-
-  button {
-    font-size: 5rem; }
-
-  input {
-    font-size: 5rem; } }
 
 /*# sourceMappingURL=main.css.map */
