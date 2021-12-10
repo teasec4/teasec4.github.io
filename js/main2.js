@@ -29,11 +29,11 @@ timer = setInterval(function () {
             timerIn.style.color = '#29f129'
             text.innerText = "inhale"
         }
-        if (secondsIn >=9 && secondsIn<17){
+        if (secondsIn >=9 && secondsIn<24){
             timerIn.style.color = 'red'
             text.innerText = "exhale"
         }
-        if (secondsIn >=17){
+        if (secondsIn >=24){
             secondsIn=1
             timerIn.style.color = '#29f129'
             text.innerText = "inhale"
