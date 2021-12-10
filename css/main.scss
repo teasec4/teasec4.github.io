@@ -34,7 +34,7 @@ h1 {
 }
 
 p{
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Fuzzy Bubbles', cursive;
 }
 
@@ -63,22 +63,24 @@ p{
   margin: .5em .5em;
   padding: 1em 1em;
   background-color: #2b7abd;
+  border-radius: 1em;
 }
 
 .container2{
   margin: auto;
-  width: 100%;
+  width: 50%;
   text-align: center;
 
 }
 
 .container3{
+  margin: auto;
   width: 80%;
   text-align: center;
 }
 
 button{
-  margin-top: .5em;
+  margin: .5em 0;
   background-color: #22656B;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 5em;
@@ -88,28 +90,28 @@ button{
 
 
 .forclock{
-  margin: auto;
-  font-size: 7em;
+  font-size: 5em;
   background-color: #3BAEB8;
   border-radius: 1em;
   color: #9E4613;
 }
 
 
-.spayser{
-  margin: 1em 0 ;
-}
-
-
 .left{
 text-align: center;
+}
 
+.textIn{
+  margin: .5em 0;
+  font-size: 4rem;
+  font-weight: bolder;
+  background-color: gray;
+  border-radius: 7em;
+  border: .5rem dashed ;
 }
 
 .containerIn{
-  text-align: center;
-  width: 50%;
-  margin: auto;
+
   font-size: 8em;
   background-color: #3BAEB8;
   color: #29f129;
