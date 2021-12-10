@@ -17,60 +17,60 @@
 <body>
     <main>
         <header>
-            <h1> Meditation for Mary </h1>
+            <h1> Meditation </h1>
         </header>
         <section>
             <div class="container1">
                 <p>Let me know, how long time do you want to practise?</p>
             </div>
 
-            <div class="container4">
-                <div class="form_radio">
-                    <input type="radio" id="Choice1"
-                           name="contact" value="email">
-                    <label for="Choice1">5/10</label>
+                <div class="container4">
+                    <div class="form_radio">
+                        <input type="radio" id="Choice1"
+                               name="contact" value="email">
+                        <label for="Choice1">5/10</label>
 
 
-                    <input type="radio" id="Choice2"
-                           name="contact" value="phone">
-                    <label for="Choice2">8/16</label>
+                        <input type="radio" id="Choice2"
+                               name="contact" value="phone">
+                        <label for="Choice2">8/16</label>
 
 
-                    <input type="radio" id="Choice3"
-                           name="contact" value="mail">
-                    <label for="Choice3">10/20</label>
+                        <input type="radio" id="Choice3"
+                               name="contact" value="mail">
+                        <label for="Choice3">10/20</label>
+                    </div>
+                    <div class="form_radio2">
+                        <input type="radio" id="timeChoice1"
+                               name="time" value="5">
+                        <label for="timeChoice1">5 min</label>
+
+
+                        <input type="radio" id="timeChoice2"
+                               name="time" value="10">
+                        <label for="timeChoice2">10 min</label>
+
+
+                        <input type="radio" id="timeChoice3"
+                               name="time" value="15">
+                        <label for="timeChoice3">15 min</label>
+                    </div>
                 </div>
-                <div class="form_radio2">
-                    <input type="radio" id="timeChoice1"
-                           name="time" value="5">
-                    <label for="timeChoice1">5 min</label>
 
+                <div class="container2">
+                    <button id="button" >Start</button>
 
-                    <input type="radio" id="timeChoice2"
-                           name="time" value="10">
-                    <label for="timeChoice2">10 min</label>
-
-
-                    <input type="radio" id="timeChoice3"
-                           name="time" value="15">
-                    <label for="timeChoice3">15 min</label>
                 </div>
-            </div>
-
-            <div class="container2">
-
-
-                <button id="button" >Start</button>
-                <div class="forclock"  id="timer" ></div>
-                <script src="js/main.js"></script>
             </div>
         </section>
 
         <section>
             <div class="container3">
                 <div class="left">
-                    <p class="textIn" id="text1"></p>
-                    <div class="containerIn"  id="timerIn" ></div>
+                    <div class="forclock"  id="timer" >0:0:0</div>
+                    <script src="js/main.js"></script>
+                    <p class="textIn" id="text1">breath</p>
+                    <div class="containerIn"  id="timerIn" >0</div>
                 </div>
 
                 <script src="js/main2.js"></script>

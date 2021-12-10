@@ -11,9 +11,11 @@ body {
 
 header {
   font-weight: bold;
-  background-color: #4BDDEB;
+  background-color: #36dbee;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: 0 5px white, 0 3px #777; }
 
 section {
   display: flex;
@@ -22,7 +24,7 @@ section {
 
 h1 {
   margin: 0;
-  color: #EB854B;
+  color: #ea722e;
   font-size: 6em;
   font-family: 'IBM Plex Serif', serif;
   padding: .5em; }
@@ -39,21 +41,23 @@ p {
   display: block;
   margin: auto;
   font-size: 3em;
-  width: 80%;
-  background-color: #EB854B;
+  width: 90%;
+  background-color: rgba(235, 133, 75, 0.85);
   border-radius: 1em; }
 
 .form_radio {
   margin: .5em .5em;
   padding: 1em 1em;
-  background-color: #3BAEB8;
-  border-radius: 1em; }
+  background-color: rgba(59, 174, 184, 0.8);
+  border-radius: 1em;
+  text-align: center; }
 
 .form_radio2 {
   margin: .5em .5em;
   padding: 1em 1em;
-  background-color: #2b7abd;
-  border-radius: 1em; }
+  background-color: rgba(43, 122, 189, 0.82);
+  border-radius: 1em;
+  text-align: center; }
 
 .container2 {
   margin: auto;
@@ -62,20 +66,24 @@ p {
 
 .container3 {
   margin: auto;
-  width: 80%;
-  text-align: center; }
+  width: 50%;
+  text-align: center;
+  background-color: rgba(235, 133, 75, 0.85);
+  padding: 3em;
+  border-radius: 2em; }
 
 button {
+  padding: .2em;
   margin: .5em 0;
-  background-color: #22656B;
+  background-color: rgba(34, 101, 107, 0.77);
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 5em;
-  color: black;
+  color: rgba(255, 176, 6, 0.88);
   border-radius: .2em; }
 
 .forclock {
   font-size: 5em;
-  background-color: #3BAEB8;
+  background-color: rgba(84, 220, 99, 0.78);
   border-radius: 1em;
   color: #9E4613; }
 
@@ -86,13 +94,13 @@ button {
   margin: .5em 0;
   font-size: 4rem;
   font-weight: bolder;
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.81);
   border-radius: 7em;
-  border: 0.5rem dashed; }
+  border: .5rem; }
 
 .containerIn {
   font-size: 8em;
-  background-color: #3BAEB8;
+  background-color: rgba(30, 92, 217, 0.68);
   color: #29f129;
   border-radius: 20px; }
 

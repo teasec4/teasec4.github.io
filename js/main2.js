@@ -13,11 +13,11 @@ timer = setInterval(function () {
             timerIn.style.color = '#29f129'
             text.innerText = "inhale"
         }
-        if (secondsIn >=6 && secondsIn<11){
+        if (secondsIn >=6 && secondsIn<16){
             timerIn.style.color = 'red'
             text.innerText = "exhale"
         }
-        if (secondsIn >=11){
+        if (secondsIn >=16){
             secondsIn=1
             timerIn.style.color = '#29f129'
             text.innerText = "inhale"
