@@ -7,7 +7,8 @@ body {
   margin: 0;
   font-family: 'Fuzzy Bubbles', cursive;
   line-height: 1.6;
-  background-color: #94E6EE; }
+  background-color: #94E6EE;
+  verflow: hidden; }
 
 header {
   font-weight: bold;
@@ -27,46 +28,54 @@ h1 {
   color: #ea722e;
   font-size: 6em;
   font-family: 'IBM Plex Serif', serif;
-  padding: .5em; }
+  padding: .3em; }
 
 p {
-  font-size: 3em;
+  font-size: calc(2.5em + .5em);
   font-family: 'Fuzzy Bubbles', cursive; }
 
 .container1 {
   margin: auto;
-  width: 80%; }
+  width: min(500px, 80%); }
 
 .container4 {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  font-size: 3em;
-  width: 90%;
+  font-size: calc(2.5em + .5em);
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
   background-color: rgba(235, 133, 75, 0.85);
   border-radius: 1em; }
 
+input[type=radio] {
+  display: none; }
+
 .form_radio {
-  margin: .5em .5em;
-  padding: 1em 1em;
+  position: relative;
+  text-align: center;
+  margin: .3em .3em;
+  padding: .3em .3em;
   background-color: rgba(59, 174, 184, 0.8);
-  border-radius: 1em;
-  text-align: center; }
+  border-radius: 1em; }
 
 .form_radio2 {
-  margin: .5em .5em;
-  padding: 1em 1em;
+  position: relative;
+  text-align: center;
+  margin: .2em .2em;
+  padding: .2em .2em;
   background-color: rgba(43, 122, 189, 0.82);
-  border-radius: 1em;
-  text-align: center; }
+  border-radius: 1em; }
 
 .container2 {
   margin: auto;
-  width: 50%;
+  width: min(500px, 70%);
   text-align: center; }
 
 .container3 {
   margin: auto;
-  width: 50%;
+  width: min(500px, 50%);
   text-align: center;
   background-color: rgba(235, 133, 75, 0.85);
   padding: 3em;
@@ -103,5 +112,41 @@ button {
   background-color: rgba(30, 92, 217, 0.68);
   color: #29f129;
   border-radius: 20px; }
+
+.button-label {
+  display: inline-block;
+  padding: .5em .5em;
+  margin: .1em;
+  cursor: pointer;
+  color: black;
+  border-radius: 0.25em;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.3s;
+  user-select: none; }
+
+#Choice1:checked + .button-label {
+  background: green;
+  color: white; }
+
+#Choice2:checked + .button-label {
+  background: green;
+  color: white; }
+
+#Choice3:checked + .button-label {
+  background: green;
+  color: white; }
+
+#timeChoice1:checked + .button-label {
+  background: green;
+  color: white; }
+
+#timeChoice2:checked + .button-label {
+  background: green;
+  color: white; }
+
+#timeChoice3:checked + .button-label {
+  background: green;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
