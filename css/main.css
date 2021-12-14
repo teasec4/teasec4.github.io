@@ -75,10 +75,15 @@ input[type=radio] {
 
 .container3 {
   margin: auto;
-  width: min(500px, 50%);
+  width: 70%;
   text-align: center;
-  background-color: rgba(235, 133, 75, 0.85);
-  padding: 3em;
+  background-color: rgba(238, 206, 83, 0.85);
+  border-radius: 2em; }
+
+.container5 {
+  margin-bottom: 2em;
+  text-align: center;
+  padding: .2em;
   border-radius: 2em; }
 
 button {
@@ -91,23 +96,27 @@ button {
   border-radius: .2em; }
 
 .forclock {
+  margin: .1em 3em;
   font-size: 5em;
-  background-color: rgba(84, 220, 99, 0.78);
+  background-color: rgba(255, 255, 255, 0.88);
   border-radius: 1em;
   color: #9E4613; }
 
 .left {
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  padding: 0; }
 
 .textIn {
-  margin: .5em 0;
+  margin: .5em 1em;
   font-size: 4rem;
   font-weight: bolder;
-  background-color: rgba(128, 128, 128, 0.81);
+  background-color: rgba(185, 115, 115, 0.81);
   border-radius: 7em;
   border: .5rem; }
 
 .containerIn {
+  margin: .1em 2em;
   font-size: 8em;
   background-color: rgba(30, 92, 217, 0.68);
   color: #29f129;
