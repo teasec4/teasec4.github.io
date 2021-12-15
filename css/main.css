@@ -96,7 +96,9 @@ button {
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 6em;
   color: rgba(248, 248, 246, 0.88);
-  border-radius: .2em; }
+  border-radius: .2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.2s; }
 
 button:active {
   background-color: green; }
