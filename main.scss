@@ -34,12 +34,12 @@ h1{
   flex-direction: column;
   text-align: center;
   background-color: bisque;
-  border-radius: 0 0 0 5em ;
+  border-radius: 0 0 0 2em ;
 }
 
 .container2{
   text-align: center;
-  margin: 1em;
+  margin: .3em;
 
 }
 button{
@@ -66,7 +66,7 @@ button:active{
   align-items: center;
   background-color: rgba(70, 130, 180, 0.6);
   border-radius: 10em 0 0 0;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 .container4{
   display: flex;
@@ -103,7 +103,7 @@ button:active{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1em 0;
+  margin: .7em 0;
 }
 
 .choseTime{
@@ -111,7 +111,7 @@ button:active{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1em 0;
+  padding: .3em 0;
 }
 
 .button-label {
@@ -142,13 +142,13 @@ button:active{
 }
 .form_radio2{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0.2em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
 }
 .timeText{
-  margin-right: 4em;
-  padding: 1em;
+  margin-right: .8em;
+  padding: .6em;
   border-radius: .5em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
 }
