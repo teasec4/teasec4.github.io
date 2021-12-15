@@ -7,12 +7,12 @@ body {
   margin: 0;
   font-family: 'Fuzzy Bubbles', cursive;
   line-height: 1.6;
-  background-color: rgba(148, 230, 238, 0.83);
+  background-color: rgba(227, 227, 227, 0.83);
   verflow: hidden; }
 
 header {
   font-weight: bold;
-  background-color: rgba(54, 219, 238, 0.85);
+  background-color: rgba(155, 155, 155, 0.85);
   text-align: center;
   width: 100%;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ section {
 
 h1 {
   margin: 0;
-  color: #ea722e;
+  color: #151412;
   font-size: 6em;
   font-family: 'IBM Plex Serif', serif;
   padding: .3em; }
@@ -46,7 +46,7 @@ p {
   width: 100%;
   min-width: 400px;
   max-width: 800px;
-  background-color: rgba(236, 172, 137, 0.85);
+  background-color: rgba(150, 149, 149, 0.85);
   border-radius: 1em; }
 
 input[type=radio] {
@@ -57,7 +57,7 @@ input[type=radio] {
   text-align: center;
   margin: .3em .3em;
   padding: .3em .3em;
-  background-color: rgba(149, 227, 232, 0.8);
+  background-color: rgba(187, 227, 232, 0.8);
   border-radius: 1em; }
 
 .form_radio2 {
@@ -65,7 +65,7 @@ input[type=radio] {
   text-align: center;
   margin: .2em .2em;
   padding: .2em .2em;
-  background-color: rgba(113, 158, 190, 0.82);
+  background-color: rgba(127, 158, 187, 0.82);
   border-radius: 1em; }
 
 .container2 {
@@ -77,7 +77,7 @@ input[type=radio] {
   margin: auto;
   width: 90%;
   text-align: center;
-  background-color: rgba(204, 201, 176, 0.94);
+  background-color: rgba(183, 183, 183, 0.94);
   border-radius: 2em; }
 
 .container5 {
@@ -89,7 +89,7 @@ input[type=radio] {
 button {
   padding: .2em 1em;
   margin: .2em .2em;
-  background-color: rgba(108, 108, 108, 0.8);
+  background-color: rgba(102, 183, 72, 0.8);
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 6em;
   color: rgba(248, 248, 246, 0.88);
@@ -101,7 +101,7 @@ button:active {
 .forclock {
   margin: .1em 3em;
   font-size: 5em;
-  background-color: rgba(232, 232, 232, 0.88);
+  background-color: #c2c2c2;
   border-radius: .3em;
   color: #070707; }
 
@@ -114,14 +114,14 @@ button:active {
   margin: .5em 1em;
   font-size: 4rem;
   font-weight: bolder;
-  background-color: rgba(186, 236, 226, 0.98);
+  background-color: rgba(229, 227, 227, 0.83);
   border-radius: .4em; }
 
 .containerIn {
   padding: .1em .2em;
   margin: .2em 2em;
   font-size: 8em;
-  background-color: rgba(43, 122, 189, 0.82);
+  background-color: rgba(136, 138, 138, 0.82);
   color: #29f129;
   border-radius: .2em; }
 
