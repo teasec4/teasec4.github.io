@@ -2,87 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Meditation</title>
-    <link rel="stylesheet" href="css/main.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
-
-
-
+    <title>MeditationV2</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-    <main>
-        <header>
-            <h1> Meditation </h1>
-        </header>
-        <section>
-            <div class="container1">
-                <p>Let me know, how long time do you want to practise?</p>
+    <header>
+        <h1>Let's practice!</h1>
+    </header>
+
+    <div class="container1">
+        <div class="choseBreath">
+            <p class="breathText">chose your type of breath</p>
+            <div class="form_radio">
+                <input type="radio" id="Choice1"
+                       name="contact" class="hidden radio-label" >
+                <label id="Choice1color" for="Choice1" class="button-label">5/10</label>
+
+
+                <input type="radio" id="Choice2"
+                       name="contact" class="hidden radio-label" >
+                <label id="Choice2color" for="Choice2" class="button-label">8/16</label>
+
+
+                <input type="radio" id="Choice3"
+                       name="contact"  class="hidden radio-label" >
+                <label id="Choice3color" for="Choice3" class="button-label">10/20</label>
+            </div>
+        </div>
+        <div class="choseTime">
+            <p class="timeText">chose time</p>
+            <div class="form_radio2">
+                <input type="radio" id="timeChoice1"
+                       name="time" >
+                <label id="timeChoice1color" for="timeChoice1" class="button-label">5 min</label>
+
+
+                <input type="radio" id="timeChoice2"
+                       name="time" >
+                <label id="timeChoice2color" for="timeChoice2" class="button-label">10 min</label>
+
+
+                <input type="radio" id="timeChoice3"
+                       name="time" >
+                <label id="timeChoice3color" for="timeChoice3" class="button-label">15 min</label>
             </div>
 
-                <div class="container4">
-                    <div class="form_radio">
-                        <input type="radio" id="Choice1"
-                               name="contact" class="hidden radio-label" >
-                        <label id="Choice1color" for="Choice1" class="button-label">5/10</label>
+        </div>
+    </div>
+
+    <div class="container2">
+            <button id="button" >Start</button>
+    </div>
+
+    <div class="container3">
+        <div class="container5">
+            <div class="forclock"  id="timer" >00:00</div>
+            <script src="main.js"></script>
+        </div>
+        <div class="container4">
+            <p class="textIn" id="text1">breath</p>
+            <div class="containerIn"  id="timerIn" >0</div>
+            <script src="main2.js"></script>
+        </div>
+    </div>
 
 
-                        <input type="radio" id="Choice2"
-                               name="contact" class="hidden radio-label" >
-                        <label id="Choice2color" for="Choice2" class="button-label">8/16</label>
-
-
-                        <input type="radio" id="Choice3"
-                               name="contact"  class="hidden radio-label" >
-                        <label id="Choice3color" for="Choice3" class="button-label">10/20</label>
-                    </div>
-                    <div class="form_radio2">
-                        <input type="radio" id="timeChoice1"
-                               name="time" >
-                        <label id="timeChoice1color" for="timeChoice1" class="button-label">5 min</label>
-
-
-                        <input type="radio" id="timeChoice2"
-                               name="time" >
-                        <label id="timeChoice2color" for="timeChoice2" class="button-label">10 min</label>
-
-
-                        <input type="radio" id="timeChoice3"
-                               name="time" >
-                        <label id="timeChoice3color" for="timeChoice3" class="button-label">15 min</label>
-                    </div>
-                </div>
-
-                <div class="container2">
-                    <button id="button" >Start</button>
-
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container5">
-                <div class="forclock"  id="timer" >0:0:0</div>
-                <script src="js/main.js"></script>
-            </div>
-            <div class="container3">
-                <div class="left">
-
-                    <p class="textIn" id="text1">breath</p>
-                    <div class="containerIn"  id="timerIn" >0</div>
-                </div>
-
-                <script src="js/main2.js"></script>
-            </div>
-        </section>
-    </main>
 
 </body>
 </html>

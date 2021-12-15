@@ -1,0 +1,193 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+input[type=radio] {
+  display: none;
+}
+
+header{
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  background-color: rgba(70, 130, 180, 0.6);
+  border-radius: 5em 0 0 0;
+
+}
+h1{
+  margin: 0;
+  padding: 1em;
+}
+
+.container1{
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 0 0 0 5em ;
+}
+
+.container2{
+  text-align: center;
+  margin: 1em;
+
+}
+button{
+  background-color: steelblue;
+  color: #fffdfd;
+  font-size: 3em;
+  margin: .2em;
+  padding: 1em 2em;
+  border-radius: 1em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.2s;
+}
+button:active{
+  background-color: #7abe7a;
+  animation: ease-in-out;
+  padding: 1em 5em;
+  border-radius: 10em;
+  transform: scale(1.1);
+}
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(70, 130, 180, 0.6);
+  border-radius: 10em 0 0 0;
+  padding: 1em 0;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffdfd;
+  padding: 1em 4em;
+  border-radius: 1em;
+}
+.container5{
+  margin-right: 6em;
+  padding: 1em 6em;
+  background-color: #fffdfd;
+  border-radius: 1em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), inset 0 -8px 0 rgba(0, 0, 0, 0.22);
+}
+
+.forclock{
+  font-size: 7em;
+}
+
+.textIn{
+  font-size: 3em;
+  font-weight: bold;
+
+}
+
+.containerIn{
+  font-size: 7em;
+}
+
+.choseBreath{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.choseTime{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.button-label {
+  display: inline-block;
+  padding: .5em .5em;
+  margin: .1em;
+  cursor: pointer;
+  color: black;
+  border-radius: 0.25em;
+  background: rgb(255, 253, 253);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.2s;
+  user-select: none;
+}
+
+.form_radio{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+
+.breathText{
+  margin-right: 2em;
+  padding: 1em;
+  border-radius: .5em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+.form_radio2{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+.timeText{
+  margin-right: 4em;
+  padding: 1em;
+  border-radius: .5em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+
+
+#Choice1:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+
+}
+
+#Choice2:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+
+}
+
+#Choice3:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+}
+
+#timeChoice1:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+}
+
+#timeChoice2:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+}
+
+#timeChoice3:checked + .button-label {
+  background: steelblue;
+  color: white;
+  transform: scale(1.1);
+}
