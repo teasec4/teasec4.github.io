@@ -5,17 +5,18 @@
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #5BA8F7; }
 
 input[type=radio] {
   display: none; }
 
 header {
-  color: black;
   font-size: 3em;
   text-align: center;
-  background-color: rgba(70, 130, 180, 0.6);
-  border-radius: 5em 0 0 0; }
+  background-color: #4F6ED6;
+  color: whitesmoke;
+  text-shadow: #794FD6 1px 0 10px; }
 
 h1 {
   margin: 0;
@@ -26,28 +27,26 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: bisque;
-  border-radius: 0 0 0 2em; }
+  border-radius: 0 0 0 0; }
 
 .container2 {
   text-align: center;
   margin: .3em; }
 
 button {
-  background-color: steelblue;
+  background-color: rgba(79, 110, 214, 0.8);
   color: #fffdfd;
-  font-size: 3em;
-  margin: .2em;
-  padding: 1em 2em;
-  border-radius: 1em;
+  font-size: 4em;
+  margin: .3em;
+  padding: 1em 3em;
+  border-radius: 0.2em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
   transition: 0.2s; }
 
 button:active {
-  background-color: #7abe7a;
+  background-color: #4F6ED6;
   animation: ease-in-out;
-  padding: 1em 5em;
-  border-radius: 10em;
+  padding: 1em 1em;
   transform: scale(1.1); }
 
 .container3 {
@@ -55,34 +54,42 @@ button:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgba(70, 130, 180, 0.6);
-  border-radius: 10em 0 0 0;
-  padding: 2em 0; }
+  padding: .7em 0;
+  background-color: #B65BF7; }
 
 .container4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fffdfd;
   padding: 1em 4em;
-  border-radius: 1em; }
+  border-radius: 1em;
+  background-color: #794FD6; }
 
 .container5 {
-  margin-right: 6em;
-  padding: 1em 6em;
-  background-color: #fffdfd;
+  padding: 1em 3em;
+  margin-right: 2em;
   border-radius: 1em;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), inset 0 -8px 0 rgba(0, 0, 0, 0.22); }
+  background-color: #6864ED; }
 
 .forclock {
-  font-size: 7em; }
+  font-size: 7em;
+  background-color: white;
+  padding: 0.3em;
+  margin: .3em;
+  border-radius: .3em; }
 
 .textIn {
   font-size: 3em;
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: white;
+  padding: 0.3em 1em;
+  border-radius: .3em; }
 
 .containerIn {
-  font-size: 7em; }
+  font-size: 7em;
+  background-color: white;
+  border-radius: 0.2em;
+  padding: 0 1em; }
 
 .choseBreath {
   display: flex;
@@ -113,54 +120,58 @@ button:active {
 .form_radio {
   display: flex;
   flex-direction: column;
-  padding: 0.2em;
+  padding: 0.5em;
+  background-color: rgba(182, 91, 247, 0.81);
+  border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 .breathText {
   margin-right: 1em;
   padding: 1em;
-  border-radius: .5em;
+  background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 .form_radio2 {
   display: flex;
   flex-direction: row;
-  padding: 0.2em;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: rgba(182, 91, 247, 0.78);
+  box-shadow: 0 10px 20px #4F6ED6, inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 .timeText {
   margin-right: .8em;
   padding: .6em;
-  border-radius: .5em;
+  background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 #Choice1:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
 #Choice2:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
 #Choice3:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice1:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice2:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice3:checked + .button-label {
-  background: steelblue;
+  background: #4F6ED6;
   color: white;
   transform: scale(1.1); }
 
