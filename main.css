@@ -6,21 +6,26 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #5BA8F7; }
+  background-color: #F2E18D; }
 
 input[type=radio] {
   display: none; }
 
+.changecolor {
+  background-color: #BFB99B; }
+
 header {
   font-size: 3em;
   text-align: center;
-  background-color: #4F6ED6;
-  color: whitesmoke;
-  text-shadow: #794FD6 1px 0 10px; }
+  background-color: #D95F69;
+  color: #F2E18D; }
 
 h1 {
   margin: 0;
   padding: 1em; }
+
+p {
+  font-family: 'Josefin Sans', sans-serif; }
 
 .container1 {
   font-size: 3em;
@@ -34,73 +39,63 @@ h1 {
   margin: .3em; }
 
 button {
-  background-color: rgba(79, 110, 214, 0.8);
-  color: #fffdfd;
+  background-color: #F29544;
+  color: #F2E18D;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
   font-size: 4em;
-  margin: .3em;
-  padding: 1em 3em;
-  border-radius: 0.2em;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
-  transition: 0.2s; }
+  transition: 300ms; }
 
 button:active {
-  background-color: #4F6ED6;
   animation: ease-in-out;
   padding: 1em 1em;
-  transform: scale(1.1); }
+  transform: scale(1.2); }
 
 .container3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: .7em 0;
-  background-color: #B65BF7; }
+  margin: 2em 0; }
 
 .container4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em 4em;
-  border-radius: 1em;
-  background-color: #794FD6; }
+  padding: 1em 4em; }
 
 .container5 {
-  padding: 1em 3em;
-  margin-right: 2em;
+  padding: 1em;
+  margin: 1em;
   border-radius: 1em;
-  background-color: #6864ED; }
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 .forclock {
   font-size: 7em;
-  background-color: white;
-  padding: 0.3em;
-  margin: .3em;
-  border-radius: .3em; }
-
-.textIn {
-  font-size: 3em;
-  font-weight: bold;
-  background-color: white;
-  padding: 0.3em 1em;
-  border-radius: .3em; }
+  background-color: #BFB99B;
+  padding: 0.2em;
+  color: white; }
 
 .containerIn {
-  font-size: 7em;
-  background-color: white;
+  font-size: 9em;
+  background-color: #D95F69;
   border-radius: 0.2em;
-  padding: 0 1em; }
+  border: thick double #BFB99B;
+  padding: 0 1em;
+  color: #F2E18D;
+  margin: auto; }
 
 .choseBreath {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: .7em 0; }
+  align-items: center; }
 
 .choseTime {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: .3em 0; }
@@ -110,68 +105,66 @@ button:active {
   padding: .5em .5em;
   margin: .1em;
   cursor: pointer;
-  color: black;
+  color: #fffdfd;
   border-radius: 0.25em;
-  background: #fffdfd;
+  background: #BFB99B;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
   transition: 0.2s;
   user-select: none; }
 
 .form_radio {
   display: flex;
-  flex-direction: column;
-  padding: 0.5em;
-  background-color: rgba(182, 91, 247, 0.81);
+  flex-direction: row;
+  padding: .5em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
 .breathText {
-  margin-right: 1em;
-  padding: 1em;
-  background-color: white;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
+  font-weight: bold;
+  padding: .3em;
+  margin: 0.8em 0 0.3em 0;
+  color: black; }
 
 .form_radio2 {
   display: flex;
   flex-direction: row;
-  padding: 0.5em;
+  padding: .5em;
   border-radius: 1em;
-  background-color: rgba(182, 91, 247, 0.78);
-  box-shadow: 0 10px 20px #4F6ED6, inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
-
-.timeText {
-  margin-right: .8em;
-  padding: .6em;
-  background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22); }
 
+.timeText {
+  font-weight: bold;
+  margin: 1em 0 .3em 0;
+  padding: .3em;
+  color: black; }
+
 #Choice1:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
 #Choice2:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
 #Choice3:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice1:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice2:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
 #timeChoice3:checked + .button-label {
-  background: #4F6ED6;
+  background: #F29544;
   color: white;
   transform: scale(1.1); }
 
