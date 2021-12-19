@@ -51,6 +51,7 @@ button{
   background-color: #F29544;
   color: #F2E18D;
   border-radius: 50%;
+  border: #D95F69 solid;
   width: 200px;
   height: 200px;
   text-align: center;
@@ -61,6 +62,12 @@ button:active{
   animation: ease-in-out;
   padding: 1em 1em;
   transform: scale(1.2);
+}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
 }
 .container3{
   display: flex;
