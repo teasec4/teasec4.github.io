@@ -58,17 +58,7 @@ button{
   font-size: 4em;
   transition: 300ms;
 }
-button:active{
-  animation: ease-in-out;
-  padding: 1em 1em;
-  transform: scale(1.2);
-}
-button:active, button:focus {
-  outline: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
+
 .container3{
   display: flex;
   flex-direction: column;
@@ -78,9 +68,11 @@ button::-moz-focus-inner {
 
 }
 .container4{
-  margin: 2em;
   text-align: center;
-  width: 50%;
+  width: 35%;
+  margin: auto;
+  transition: 500ms;
+  animation: ease-out;
 }
 .container5{
   display: flex;
@@ -89,24 +81,25 @@ button::-moz-focus-inner {
   padding: 1em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  background-color: #BFB99B;
 }
 
 .forclock{
-  font-size: 7em;
-  background-color: #BFB99B;
+  font-size: 10em;
   color: white;
   margin: 0;
   padding: 0;
+  background-color: #BFB99B;
 }
 
 .containerIn{
-  font-size: 9em;
-  background-color: #D95F69;
-  border-radius: 0.2em;
-  border:thick double #BFB99B;
-  padding: 0 1em;
+  font-size: 7em;
+  background-color: #F29544;
   color: #F2E18D;
-  margin: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+.containerIn:active {
+  animation: ease-out;
 }
 
 .choseBreath{
@@ -144,6 +137,7 @@ button::-moz-focus-inner {
   padding: .5em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  background-color: #D95F69;
 }
 
 .breathText{
@@ -158,6 +152,7 @@ button::-moz-focus-inner {
   padding: .5em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  background-color: #D95F69
 }
 .timeText{
   font-weight: bold;
