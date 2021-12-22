@@ -8,19 +8,19 @@ let helpcolor = document.getElementById('timer2')
 let button = document.getElementById("timerIn");
 
 button.addEventListener('click', function (){
-    timerIn.style.paddingBottom = '.5em'
-    timerIn.style.paddingTop = '.5em'
+    timerIn.style.paddingBottom = '.3em'
+    timerIn.style.paddingTop = '.3em'
 
-    buttonClicked.style.width = '60%'
+    buttonClicked.style.width = '50%'
 
     timerIn.style.backgroundColor = '#D95F69'
     timerIn.style.borderRadius = '.5em'
-    timerIn.style.fontSize = '13em'
+    timerIn.style.fontSize = '11em'
 
-    timerColor.style.backgroundColor = '#D95F69'
-    timerShow.style.backgroundColor = '#D95F69'
-    timerShow2.style.backgroundColor = '#D95F69'
-    helpcolor.style.backgroundColor = '#D95F69'
+    timerColor.style.backgroundColor = '#F29544'
+    timerShow.style.backgroundColor = '#F29544'
+    timerShow2.style.backgroundColor = '#F29544'
+    helpcolor.style.backgroundColor = '#F29544'
 
     if (document.getElementById("timeChoice1").checked === true){
         timeMinut = 5 * 60
