@@ -95,9 +95,10 @@ button{
 
 .containerIn{
   font-size: 7em;
-  background-color: #F29544;
-  color: #F2E18D;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  background-color: #F2E18D;
+  border-radius: .5em;
+  color: #D95F69;
+  box-shadow: 0 5px 15px #D95F69 , inset 0 -3px 0 #F29544;
 }
 .containerIn:active {
   animation: ease-out;
@@ -138,7 +139,6 @@ button{
   padding: .5em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
-  background-color: #D95F69;
 }
 
 .breathText{
@@ -153,7 +153,6 @@ button{
   padding: .5em;
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
-  background-color: #D95F69
 }
 .timeText{
   font-weight: bold;
