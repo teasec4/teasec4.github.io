@@ -9,7 +9,7 @@ dowm1.addEventListener('click', function (){
 })
 
 down2.addEventListener('click', function () {
-    window.scrollTo(0, 1600 )
+    window.scrollTo(0, 2000 )
 })
 
 
