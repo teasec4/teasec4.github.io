@@ -85,7 +85,7 @@ button {
   background-color: #F2E18D;
   border-radius: .5em;
   color: #D95F69;
-  box-shadow: 0 5px 15px #D95F69 , inset 0 -3px 0 #F29544; }
+  box-shadow: 2px 1px 5px 5px white; }
 
 .containerIn:active {
   animation: ease-out; }

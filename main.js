@@ -13,9 +13,9 @@ button.addEventListener('click', function (){
 
     buttonClicked.style.width = '50%'
 
-    timerIn.style.backgroundColor = '#D95F69'
+
     timerIn.style.borderRadius = '.5em'
-    timerIn.style.fontSize = '11em'
+    timerIn.style.fontSize = '14em'
 
     timerColor.style.backgroundColor = '#F29544'
     timerShow.style.backgroundColor = '#F29544'
