@@ -181,7 +181,7 @@ button {
 
 .timeText {
   font-weight: bold;
-  margin: 1em 0 .3em 0;
+  margin: .4em 0 .2em 0;
   padding: .3em;
   color: black; }
 
@@ -190,7 +190,7 @@ button {
   text-align: justify; }
 
 h3 {
-  font-size: 3em;
+  font-size: 5em;
   font-family: Century; }
 
 .explanation1 {
@@ -208,8 +208,11 @@ h3 {
   margin-top: 3em;
   padding: 1em 2em; }
 
+.explanationText {
+  font-size: 4em; }
+
 li {
-  font-size: 2em; }
+  font-size: 4em; }
 
 #Choice1:checked + .button-label {
   background: #F29544;
