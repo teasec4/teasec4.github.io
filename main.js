@@ -8,8 +8,8 @@ let helpcolor = document.getElementById('timer2')
 let button = document.getElementById("timerIn");
 
 button.addEventListener('click', function (){
-    timerIn.style.paddingBottom = '.3em'
-    timerIn.style.paddingTop = '.3em'
+    timerIn.style.paddingBottom = '.1em'
+    timerIn.style.paddingTop = '.1em'
 
     buttonClicked.style.width = '50%'
 

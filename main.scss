@@ -28,10 +28,40 @@ header{
 }
 h1{
   margin: 0;
-  padding: 1em;
+  padding: .8em;
 }
-p{
+h2{
   font-family: 'Josefin Sans', sans-serif;
+}
+p, li{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.explanation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em 1em;
+}
+.whatIsIt{
+  text-align: center;
+  font-size: 2em;
+  padding: .3em 1em;
+  background-color: #BFB99B;
+  border-radius: 2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+.space{
+  padding: .4em;
+}
+.howIsItWork{
+  text-align: center;
+  font-size: 2em;
+  padding: .3em 1em;
+  background-color: #F29544;
+  border-radius: 2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
 }
 
 .container1{
@@ -39,8 +69,6 @@ p{
   display: flex;
   flex-direction: column;
   text-align: center;
-
-  border-radius: 0 0 0 0 ;
 }
 
 .container2{
@@ -93,12 +121,30 @@ button{
   background-color: #BFB99B;
 }
 
-.containerIn{
-  font-size: 7em;
-  background-color: #F2E18D;
-  border-radius: .5em;
+.instructions-breath{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  width: 35%;
+  margin: auto;
+  margin-bottom: .2em;
+  padding: .2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+}
+.breathBlock{
+  font-weight: bold;
+  padding: .2em;
   color: #D95F69;
-  box-shadow: 2px 1px 5px 5px white;
+}
+
+.containerIn{
+  font-family: Vrinda;
+  margin: .2em;
+  font-size: 7em;
+  background-color: #F29544;
+  border-radius: .5em;
+  color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);;
 }
 .containerIn:active {
   animation: ease-out;
@@ -141,12 +187,6 @@ button{
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
 }
 
-.breathText{
-  font-weight: bold;
-  padding: .3em;
-  margin: 0.8em 0 0.3em 0;
-  color: black;
-}
 .form_radio2{
   display: flex;
   flex-direction: row;
@@ -154,6 +194,14 @@ button{
   border-radius: 1em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
 }
+
+.breathText{
+  font-weight: bold;
+  padding: .3em;
+  margin: 0.8em 0 0.3em 0;
+  color: black;
+}
+
 .timeText{
   font-weight: bold;
   margin: 1em 0 .3em 0;
@@ -161,6 +209,33 @@ button{
   color: black;
 }
 
+.explanationFull{
+  margin: 12em 1em 1em 1em;
+  text-align: justify;
+}
+h3{
+  font-size: 3em;
+  font-family: Century;
+}
+.explanation1{
+ background-color: #BFB99B;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+.explanation2{
+  background-color: #F29544;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 1em;
+  margin: 1em;
+  margin-top: 3em;
+  padding: 1em 2em;
+}
+li{
+  font-size: 2em;
+}
 
 #Choice1:checked + .button-label {
   background: #F29544;

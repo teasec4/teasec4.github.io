@@ -29,65 +29,105 @@
 <body>
 
     <header>
-        <h1>Meditation timer</h1>
+        <h1>Pranayama timer</h1>
     </header>
 
-    <div class="container1">
-        <div class="choseBreath">
-            <p class="breathText">chose your type of breathing</p>
-            <div class="form_radio">
-                <input type="radio" id="Choice1"
-                       name="contact" class="hidden radio-label" >
-                <label id="Choice1color" for="Choice1" class="button-label">5/10</label>
+    <div class="explanation">
+        <div class="whatIsIt" id="down1">
+            <h2>What is it Pranayama?</h2>
+        </div>
+        <div class="space">
+
+        </div>
+        <div class="howIsItWork" id="down2">
+            <h2>How do you use it?</h2>
+        </div>
+        <script src="scrol.js"></script>
+    </div>
+
+    <div class="app">
+        <div class="container1">
+            <div class="choseBreath">
+                <p class="breathText">chose your type of breathing</p>
+                <div class="form_radio">
+                    <input type="radio" id="Choice1"
+                           name="contact" class="hidden radio-label" >
+                    <label id="Choice1color" for="Choice1" class="button-label">5/10</label>
 
 
-                <input type="radio" id="Choice2"
-                       name="contact" class="hidden radio-label" >
-                <label id="Choice2color" for="Choice2" class="button-label">8/16</label>
+                    <input type="radio" id="Choice2"
+                           name="contact" class="hidden radio-label" >
+                    <label id="Choice2color" for="Choice2" class="button-label">8/16</label>
 
 
-                <input type="radio" id="Choice3"
-                       name="contact"  class="hidden radio-label" >
-                <label id="Choice3color" for="Choice3" class="button-label">10/20</label>
+                    <input type="radio" id="Choice3"
+                           name="contact"  class="hidden radio-label" >
+                    <label id="Choice3color" for="Choice3" class="button-label">10/20</label>
+                </div>
+            </div>
+            <div class="choseTime">
+                <p class="timeText">chose time</p>
+                <div class="form_radio2">
+                    <input type="radio" id="timeChoice1"
+                           name="time" >
+                    <label id="timeChoice1color" for="timeChoice1" class="button-label">5 min</label>
+
+
+                    <input type="radio" id="timeChoice2"
+                           name="time" >
+                    <label id="timeChoice2color" for="timeChoice2" class="button-label">10 min</label>
+
+
+                    <input type="radio" id="timeChoice3"
+                           name="time" >
+                    <label id="timeChoice3color" for="timeChoice3" class="button-label">15 min</label>
+                </div>
+
             </div>
         </div>
-        <div class="choseTime">
-            <p class="timeText">chose time</p>
-            <div class="form_radio2">
-                <input type="radio" id="timeChoice1"
-                       name="time" >
-                <label id="timeChoice1color" for="timeChoice1" class="button-label">5 min</label>
 
+        <div class="container3">
+            <div class="container5" id="timerColor">
+                <div class="forclock"  id="timer" >00</div>
+                <div class="forclock"  id="timer2" >:</div>
+                <div class="forclock"  id="timer3" >00</div>
 
-                <input type="radio" id="timeChoice2"
-                       name="time" >
-                <label id="timeChoice2color" for="timeChoice2" class="button-label">10 min</label>
-
-
-                <input type="radio" id="timeChoice3"
-                       name="time" >
-                <label id="timeChoice3color" for="timeChoice3" class="button-label">15 min</label>
             </div>
+        </div>
+
+        <div class="instructions-breath">
+            <div class="breathBlock" id="breathPlace"> breath </div>
 
         </div>
-    </div>
 
-    <div class="container3">
-        <div class="container5" id="timerColor">
-            <div class="forclock"  id="timer" >00</div>
-            <div class="forclock"  id="timer2" >:</div>
-            <div class="forclock"  id="timer3" >00</div>
+        <div class="container4" id="buttonClicked">
+            <div class="containerIn"  id="timerIn" >start</div>
+
 
         </div>
+
+        <script src="main.js"></script>
+        <script src="main2.js"></script>
     </div>
 
-    <div class="container4" id="buttonClicked">
-        <div class="containerIn"  id="timerIn" >&#10004</div>
+    <div class="explanationFull">
+        <div class="explanation1">
+            <h3>Pranayama is</h3>
+            <p>The yogic practice of <b>focusing on breath</b>. In Sanskrit, prana means "vital life force", and yama means to gain control. In yoga, breath is associated with the prana, thus, pranayama is a means to elevate the prana shakti, or life energies.
+            </p>
 
+        </div>
+        <div class="explanation2">
+            <h3>How do you use it</h3>
+            <p>Smooth exhalation, should be about <b>twice as long as the inhalation</b>, the ratio of inhalation and exhalation is <b>1:2</b>
+            </p>
+            <ul>
+                <li>chose you <b>type of breathing</b></li>
+                <li>chose you <b>practice time</b></li>
+                <li>click on <b>start</b> button</li>
+            </ul>
+        </div>
     </div>
-
-    <script src="main.js"></script>
-    <script src="main2.js"></script>
 
 </body>
 </html>
