@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pranayama</title>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "WebSite",
+            "url": "https://teasec4.github.io/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(87015452, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/87015452" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1>Pranayama timer</h1>
+    </header>
+
+    <div class="explanation">
+        <div class="whatIsIt" id="down1">
+            <h2>What is it Pranayama?</h2>
+        </div>
+        <div class="space">
+
+        </div>
+        <div class="howIsItWork" id="down2">
+            <h2>How do you use it?</h2>
+        </div>
+        <script src="js/scrol.js"></script>
+    </div>
+
+    <div class="app">
+        <div class="container1">
+            <div class="choseBreath">
+                <p class="breathText">chose your type of breathing</p>
+                <div class="form_radio">
+                    <input type="radio" id="Choice1"
+                           name="contact" class="hidden radio-label" >
+                    <label id="Choice1color" for="Choice1" class="button-label">5/10</label>
+
+
+                    <input type="radio" id="Choice2"
+                           name="contact" class="hidden radio-label" >
+                    <label id="Choice2color" for="Choice2" class="button-label">8/16</label>
+
+
+                    <input type="radio" id="Choice3"
+                           name="contact"  class="hidden radio-label" >
+                    <label id="Choice3color" for="Choice3" class="button-label">10/20</label>
+                </div>
+            </div>
+            <div class="choseTime">
+                <p class="timeText">chose time</p>
+                <div class="form_radio2">
+                    <input type="radio" id="timeChoice1"
+                           name="time" >
+                    <label id="timeChoice1color" for="timeChoice1" class="button-label">5 min</label>
+
+
+                    <input type="radio" id="timeChoice2"
+                           name="time" >
+                    <label id="timeChoice2color" for="timeChoice2" class="button-label">10 min</label>
+
+
+                    <input type="radio" id="timeChoice3"
+                           name="time" >
+                    <label id="timeChoice3color" for="timeChoice3" class="button-label">15 min</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="container5" id="timerColor">
+                <div class="forclock"  id="timer" >00</div>
+                <div class="forclock"  id="timer2" >:</div>
+                <div class="forclock"  id="timer3" >00</div>
+
+            </div>
+        </div>
+
+        <div class="instructions-breath">
+            <div class="breathBlock" id="breathPlace"> breath </div>
+
+        </div>
+
+        <div class="container4" id="buttonClicked">
+            <div class="containerIn"  id="timerIn" >start</div>
+
+
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/main2.js"></script>
+    </div>
+
+    <div class="explanationFull">
+        <div class="explanation1">
+            <h3>Pranayama is</h3>
+            <p class="explanationText">The yogic practice of <b>focusing on breath</b>. In Sanskrit, prana means "vital life force", and yama means to gain control. In yoga, breath is associated with the prana, thus, pranayama is a means to elevate the prana shakti, or life energies.
+            </p>
+            <a href="pranayamais.html"> read more </a>
+        </div>
+        <div class="explanation2">
+            <h3>How do you use it</h3>
+            <p class="explanationText">Smooth exhalation, should be about <b>twice as long as the inhalation</b>, the ratio of inhalation and exhalation is <b>1:2</b>
+            </p>
+            <ul>
+                <li>chose you <b>type of breathing</b></li>
+                <li>chose you <b>practice time</b></li>
+                <li>click on <b>start</b> button</li>
+            </ul>
+            <a href="#"> read more </a>
+        </div>
+    </div>
+
+</body>
+</html>
