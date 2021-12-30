@@ -214,6 +214,9 @@ h3 {
 li {
   font-size: 4em; }
 
+.a1 {
+  font-size: 3em; }
+
 #Choice1:checked + .button-label {
   background: #F29544;
   color: white;
