@@ -5,8 +5,8 @@ coloragaine = 'rgba(75,232,75,0.81)'
 coloranaine2 = 'rgba(241,20,47,0.85)'
 inhale = 'inhale'
 exhale = 'exhale'
-inhaleColor = '#F2E18D'
-exhaleColor = '#F2E18D'
+inhaleColor = 'rgba(75,232,75,0.81)'
+exhaleColor = 'rgba(241,20,47,0.85)'
 
 button.addEventListener('click', function () {
     secondsIn = 1

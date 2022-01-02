@@ -1,5 +1,5 @@
 let dowm1 = document.getElementById('down1');
-let down2 = document.getElementById('down2')
+let down2 = document.getElementById('down2');
 
 
 dowm1.addEventListener('click', function (){

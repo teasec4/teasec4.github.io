@@ -16,7 +16,7 @@ body{
 }
 
 header{
-  font-size: 2.5em;
+  font-size: 2em;
   background: #D95F69;
   text-align: center;
   position: fixed;
@@ -167,10 +167,10 @@ nav ul li a{
   font-size: 2.5em;
 }
 a{
-  text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
+
 .pranayamaList ul li{
   padding: .2em;
   padding-top: .5em;
@@ -190,5 +190,8 @@ a{
   font-size: 3em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
-
+}
+.wherearefrom{
+  font-size: 1rem;
+  margin: 1em;
 }

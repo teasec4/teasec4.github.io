@@ -1,11 +1,12 @@
 let buttonClicked = document.getElementById("buttonClicked")
 let timerShow = document.getElementById("timer");
-let timerShow2 = document.getElementById("timer3")
+let timerShow2 = document.getElementById("timer3");
 let timerIn = document.getElementById("timerIn");
-let timerColor = document.getElementById('timerColor')
-let helpcolor = document.getElementById('timer2')
+let timerColor = document.getElementById('timerColor');
+let helpcolor = document.getElementById('timer2');
 
 let button = document.getElementById("timerIn");
+
 
 button.addEventListener('click', function (){
     timerIn.style.paddingBottom = '.1em'
@@ -21,6 +22,8 @@ button.addEventListener('click', function (){
     timerShow.style.backgroundColor = '#F29544'
     timerShow2.style.backgroundColor = '#F29544'
     helpcolor.style.backgroundColor = '#F29544'
+
+
 
     if (document.getElementById("timeChoice1").checked === true){
         timeMinut = 5 * 60
